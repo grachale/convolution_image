@@ -19,9 +19,19 @@ for filter_name, kernel in filters.items():
     print(filter_name)
     display_image(apply_filter(image, kernel))
 ```
-Identity
-![](tests/lenna.png)
-Gaussian blur 3x3 (approx)
-![](tests/lenna_gaussian_blur.png)
-Edge detection
+Identity  
+
+
+![](tests/lenna.png)  
+
+
+Gaussian blur 3x3 (approx)  
+
+
+![](tests/lenna_gaussian_blur.png)  
+
+
+Edge detection  
+
+
 ![](tests/lenna_gray_edge_detection.png)
